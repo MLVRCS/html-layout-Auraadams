@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Aura pages </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: pink;
+  padding: 1px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color:white;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color:pink;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column ;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>Aura Origin and Meaning</h2>
+</header>
+
+<section>
+  <nav>
+    <h1>similar name</h1>
+      <li><a href="#">Noura</a></li>
+      <li><a href="#">Laura</a></li>
+      <li><a href="#">Aurora</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Aura </h1>
+    <p>The name Aura is girl's name meaning "soft breeze". Aura has an otherworldly, slightly New Age-y glow, but is beginning to sound more more like a legitimate name. In Greek and Roman mythology, Aura was the Titan of the breeze and the fresh, cool air of early morning.</p>
+  </article>
+<center><img src =https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqQBMvMvJd1SHPEtNxwWk-XkoCqGpDmBGUw30j2nCRe2Hdfy89UYNi526Wh-HzFAJ_AMk&usqp width=300></center> </section>
+
+
+
+<footer>
+  <p>Aura </p>
+</footer>
+
+</body>
+</html>
+
